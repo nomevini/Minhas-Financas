@@ -1,0 +1,140 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100vh;
+  width: 90%;
+}
+
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 100%;
+}
+
+.hero-title span {
+  color: #1B5DDD;
+}
+
+.hero-title h1 {
+  width: 100%;
+  font-size: 3em;
+
+  margin: 0;
+  margin-top: 40px;
+}
+
+.hero-title p {
+  width: 100%;
+  font-size: 1.5em;
+  opacity: 60%;
+
+  margin: 0 0 40px 0;
+}
+
+.hero-video {
+  width: 60%;
+  height: 27vw;
+
+   max-width: 1000px;
+  /* max-height: 720px; */
+}
+
+.hero-video iframe {
+  width: 100%;
+  height: 100%;
+  
+  border-radius: 20px;
+}
+
+.hero-btn {
+  margin-top: 40px;
+
+  width: 50%;
+  max-width: 350px; 
+  min-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-btn button {
+  width: 90%;
+  height: 60px;
+
+  border-radius: 30px;
+  border: none;
+
+  background-color: #1B5DDD;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.hero-btn button:hover {
+  background-color: #14429e;
+}
+
+.hero-btn p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.hero-btn span {
+  color: #1B5DDD;
+}
+
+
+/* Tablet */
+@media (max-width: 1140px) {
+  .hero-video {
+    width: 80%;
+    height: 50vw;
+  }
+}
+
+
+/* celular */
+@media (max-width: 770px) {
+  .hero-title h1 {
+    font-size: 2.5em;
+  
+  }
+
+  .hero-title p {
+    font-size: 1.2em;
+  
+  }
+
+  .hero-video {
+    width: 100%;
+    height: 60vw;
+  }
+}
+
+/* min celular */
+@media (max-width: 500px) {
+  .hero-title h1 {
+    font-size: 2em;
+  
+  }
+
+  .hero-title p {
+    font-size: 1em;
+  
+  }
+
+}
