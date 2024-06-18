@@ -72,6 +72,15 @@
 }
 
 @media (max-width: 1000px) {
+  .functionalities-title h1 {
+    font-size: 35px;
+  }
+
+  .functionalities-title p {
+    font-size: 20px;
+  }
+
+
   .functionalities-items {
     display: flex;
     flex-direction: column;
@@ -83,7 +92,13 @@
     height: 100%;
   }
 
+  .functionality h3 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
   .functionality p {
-    margin-bottom: 30px;
+    font-size: 17px;
+    margin-top: 10px;
   }
 }

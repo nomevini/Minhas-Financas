@@ -1,5 +1,7 @@
 .steps-title {
   margin-bottom: 30px;
+  display: flex;
+  text-align: center;
 }
 
 .steps-container {
@@ -52,6 +54,11 @@
 
 
 @media (max-width: 1330px) {
+  .steps-title h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+
   .steps-wrapper {
     display: flex;
     flex-direction: column-reverse;

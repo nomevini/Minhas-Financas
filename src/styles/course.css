@@ -96,6 +96,8 @@
     align-items: center;
     height: 100%;
     max-height: fit-content;
+
+    padding: 10px;
   }
 
   .img-wrapper {
@@ -108,11 +110,18 @@
   }
 
   .course-content-wrapper {
-    width: 90%;
+    width: 100%;
+  }
+
+  .course-content-wrapper h2 {
+    font-size: 27px;
   }
 
   #info-course {
     text-align: center;
+    font-size: 15px;
+
+    margin-top: 0;
   }
 
   .course-content-wrapper button {
