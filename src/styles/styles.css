@@ -7,6 +7,10 @@ html, body {
   
   font-family: "San Francisco";
 }
+body {
+  overflow-x: hidden;
+}
+
 
 .main {
   display: flex;
@@ -19,4 +23,25 @@ h1 {
   font-size: 3em;
   margin: 0;
   margin-top: 40px;
+}
+/* Estilizando a barra de rolagem inteira */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem vertical */
+  height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilizando a parte do track (fundo da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background: transparent; /* ou use 'none' */
+}
+
+/* Estilizando o thumb (botão de rolagem) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do thumb */
+  border-radius: 10px;
+}
+
+/* Estilizando o thumb ao passar o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
