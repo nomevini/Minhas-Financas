@@ -42,25 +42,27 @@
 }
 
 .question {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  max-width: 640px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1pt solid rgba(255, 255, 255, 0.20);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
 }
+
 
 .question-header {
   width: 100%;
-  max-width: 640px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
-  padding: 5px 15px;
-  background: rgba(255, 255, 255, 0.14);
-  border: 1pt solid rgba(255, 255, 255, 0.20);
-  border-radius: 10px;
-  margin-bottom: 15px;
 }
 
 .question-header p {
@@ -86,4 +88,28 @@
 .question-header img {
   width: 18px;
   height: 18px;
+}
+
+/* Adicionando animação para a transição de mostrar/ocultar */
+.answer {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.answer.show {
+  display: block;
+  max-height: 1000px; /* Um valor grande o suficiente para todas as respostas */
+}
+
+
+@media (max-width: 500px){
+  .faq-wrapper {
+    width: 85%;
+  }
+  .faq-title h1 {
+    font-size: 35px;
+    width: 100%;
+  }
 }
