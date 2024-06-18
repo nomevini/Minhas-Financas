@@ -88,7 +88,7 @@
 }
 
 .course-itens-content {
-  width: 90%;
+  width: 100%;
 }
 
 .course-iten {
@@ -117,12 +117,13 @@
 .course-price {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  width: 95%;
+  width: 100%;
 }
 
 .course-info-price {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .course-info-price p {
