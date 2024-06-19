@@ -144,7 +144,7 @@
 
   .module-wrapper {
     display: flex;
-    width: 95%;
+    width: 90%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -169,7 +169,7 @@
   .course-price {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .course-price button {
@@ -190,6 +190,7 @@
 
   .course-info-price {
     margin-bottom: 20px;
+    width: 100%;
   }
   .course-info-price p{
     font-size: 40px;
