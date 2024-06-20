@@ -24,6 +24,11 @@ h1 {
   margin: 0;
   margin-top: 40px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
 /* Estilizando a barra de rolagem inteira */
 ::-webkit-scrollbar {
   width: 12px; /* Largura da barra de rolagem vertical */
