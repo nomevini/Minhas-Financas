@@ -5,7 +5,8 @@
   justify-content: center;
 
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  padding-top: 50px;
   background-color: #0F0F0F;
   color: white;
 }
@@ -30,7 +31,7 @@
 }
 
 .faq-wrapper {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -46,7 +47,7 @@
   flex-direction: column;
   align-items: center;
 
-  max-width: 640px;
+  max-width: 600px;
   width: 100%;
   background: rgba(255, 255, 255, 0.14);
   border: 1pt solid rgba(255, 255, 255, 0.20);
@@ -104,12 +105,14 @@
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 700px){
   .faq-wrapper {
     width: 85%;
+    margin-top: 50px;
   }
   .faq-title h1 {
     font-size: 35px;
     width: 100%;
   }
+
 }
